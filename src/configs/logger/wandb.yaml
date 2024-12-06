@@ -3,11 +3,11 @@
 wandb:
 #  _target_: pytorch_lightning.loggers.wandb.WandbLogger
   _target_: src.utilities.wandb_callbacks.MyWandbLogger
-  entity: null  # optionally set to name of your wandb team or entity
+  entity: utah-math-data-science  # optionally set to name of your wandb team or entity
   name: null   # will be automatically set to the name of the run (plus timestamp, etc.)
   tags: []
   notes: "..."
-  project: "DYffusion"
+  project: "taost-DYffusion"
   group: ""
   resume: "allow"
   reinit: True

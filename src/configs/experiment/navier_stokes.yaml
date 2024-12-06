@@ -34,5 +34,5 @@ callbacks:
 
 logger:
   wandb:
-    project: "DYffusion-navier-stokes"
+    project: "taost-DYffusion-navier-stokes"
     tags: ["navier-stokes"]
